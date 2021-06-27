@@ -129,7 +129,7 @@ const render = () => {
 
 
     document.getElementById('bestScore').innerHTML = `Meilleur : ${bestScore}`
-    document.getElementById('currentScore').innerHTML = `Meilleur : ${currentScore}`
+    document.getElementById('currentScore').innerHTML = `Score : ${currentScore}`
 
     window.requestAnimationFrame(render);
 };
